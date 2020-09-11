@@ -1,1 +1,1 @@
-<a href="tush-tr.github.io">tusharrajput.github.io</a>
+<a href="https://tush-tr.github.io/">tusharrajput.github.io</a>
