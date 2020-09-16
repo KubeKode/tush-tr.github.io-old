@@ -1,11 +1,11 @@
-/* Style the whole body 
+/* Style the whole body  */
 body{
     height: 3444px;
-    margin: 0;
-    padding: 0;
-    background-image: url('images/background1.jpg');
-    background-size: 100%;
-} */
+    /* margin: 0; */
+    /* padding: 0; */
+    /* background-image: url('images/background1.jpg'); */
+    /* background-size: 100%; */
+}
 
 /* upper side block of the text Clean hands save lives - Wash your hands! */
 
@@ -31,7 +31,7 @@ header{
 .navbar li{
     float: right;
     list-style: none;
-    margin: 44px 60px;
+    margin: 0px 50px;
     text-align: center;
 }
 .navbar li a{
@@ -39,11 +39,11 @@ header{
     text-decoration: none;
     color: black;
     display: inline-block;
-    border-radius: 20px;
+    border-radius: 10px;
     /* text-align: center; */
 }
 .navbar li a:hover{
     color: white;
-    background-color: rgba(231, 231, 15, 0.678);
-    size: 100px;
+    background-color: rgba(158, 170, 148, 0.678);
+    size: 50px;
 }
