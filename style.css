@@ -1,25 +1,102 @@
+header{
+    /* position: -webkit-sticky; */
+    /* display: block; */
+    position: sticky;
+    top: 0;
+
+}
+body{
+    height: 2000px;
+}
+
+/* ____________First grid container below navbar containing two side by side sections___________  */
 #grid-container{
     display: grid;
     grid-gap: 2rem;
     grid-template-areas: 
     'aside section';
-
+    
 }
 
-
-#side-container img{
-    height: 11rem;
-    width: 12rem;
+/* __________________________Side Container___________________ */
+#side-container{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* border: 2px solid black; */
+    flex-direction: column;
+    height: 650px;
+    width: 400px;
+    background-color: lightblue;
+    color: white;
+    font-size: 1rem;
+    
 }
+aside::before{
+    content: "";
+    background:url(assets/sideb.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .85;
+    top: 0px;
+    left: 0px;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+aside{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    
+}
+/* ______Set grid area_________ */
 .aside{
     /* height: 100%;
     width: 33%; */
     grid-area: aside;
 }
-.aside h2{
-    padding: 1rem 1rem;
-    margin: 1rem 1rem;
+
+#side-container #main-image{
+    height: 14rem;
+    width: 14rem;
+    border: transparent;
+    border-radius: 2rem;
+    margin: 70px 15px 10px -15px;
+    box-shadow: 6px 4px rgba(226, 147, 115, 0.63);
 }
+.aside h2{
+    font-family: 'Sansita Swashed', cursive;
+    /* padding: 1rem 1rem; */
+    margin: 5px 5px 25px 5px;
+    font-size: 2.3rem;
+}
+.aside h3{
+    font-family: 'Roboto Mono', monospace;
+    /* font-family: 'Sansita Swashed', cursive; */
+    font-size: 1rem;
+    padding: 10px 10px 10px 10px;
+}
+
+
+
+
+.contact{
+    margin: 10px 10px;
+}
+
+.contact a{
+    padding: 10px 10px;
+    /* margin: 10px 10px; */
+}
+.contact a img{
+    height: 2rem;
+    width: 2rem;
+}
+
+
+/* Right side section */
 .information{
     grid-area: section;
     /* border: 2px solid black; */
@@ -28,26 +105,10 @@
     align-items: center;
     padding: 10px 10px;
     margin: 10px 10px;
-}
-#side-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* border: 2px solid black; */
-    flex-direction: column;
-    height: 600px;
-    width: 420px;
-
     
 }
-.contact span{
-    padding: 10px 10px;
-    margin: 10px 10px;
-   
-}
-.contact{
-    margin: 10px 10px;
-}
+
+
 /* ______Media Queries________ */
 @media (min-width: 200px) and (max-width: 600px) {
     body{
@@ -75,6 +136,24 @@
     }
 
     
+}
+
+@media (min-width: 600px) and (max-width: 1100px){
+    #grid-container{
+        /* display: grid; */
+        grid-template-areas: 
+        'aside aside'
+        'section section';
+    }
+    #side-container{
+        height: 100%;
+        width: 100%;
+
+    }
+    .information{
+        height: 100%;
+        width: 100%;
+    }
 }
 
 
