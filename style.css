@@ -8,14 +8,15 @@ header{
 body{
     height: 2000px;
 }
-
 /* ____________First grid container below navbar containing two side by side sections___________  */
 #grid-container{
+    /* width: 100%; */
+    /* border: 2px solid red; */
     display: grid;
     grid-gap: 2rem;
     grid-template-areas: 
+    'aside section'
     'aside section';
-    
 }
 
 /* __________________________Side Container___________________ */
@@ -47,7 +48,8 @@ aside::before{
 }
 aside{
     position: -webkit-sticky;
-    position: sticky;
+    position: fixed;
+    overflow: scroll;
     top: 0;
     
 }
@@ -78,10 +80,6 @@ aside{
     font-size: 1rem;
     padding: 10px 10px 10px 10px;
 }
-
-
-
-
 .contact{
     margin: 10px 10px;
 }
@@ -94,8 +92,10 @@ aside{
     height: 2rem;
     width: 2rem;
 }
-
-
+#linkedin-logo{
+    width: 4rem;
+    height: 3rem;
+}
 /* Right side section */
 .information{
     grid-area: section;
@@ -108,22 +108,23 @@ aside{
     
 }
 
-
 /* ______Media Queries________ */
 @media (min-width: 200px) and (max-width: 600px) {
     body{
         /* background-color: red; */
     }
     #grid-container{
+        
         /* display: grid; */
         grid-template-areas: 
-        'aside aside'
+        'aside aside '
         'section section';
-    
+        grid-gap: none;    
     }
     #side-container{
         height: 100%;
         width: 100%;
+        /* position: relative; */
 
     }
     .information{
@@ -142,8 +143,9 @@ aside{
     #grid-container{
         /* display: grid; */
         grid-template-areas: 
-        'aside aside'
-        'section section';
+        'aside'
+        'section';
+        grid-gap: none;
     }
     #side-container{
         height: 100%;

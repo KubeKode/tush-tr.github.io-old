@@ -1,0 +1,79 @@
+header{}
+#grid-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 640px;
+}
+
+/* ________________Aside________________ */
+#side-container{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#main-image{
+    height: 14rem;
+    width: 13.5rem;
+    border: transparent;
+    border-radius: 2rem;
+    margin: -135px 45px 30px 0px;
+    box-shadow: 6px 4px rgba(226, 147, 115, 0.63);
+}
+.aside h2{
+    font-family: 'Sansita Swashed', cursive;
+    /* padding: 1rem 1rem; */
+    margin: 5px 5px 25px 5px;
+    font-size: 2.3rem;
+}
+.aside h3{
+    font-family: 'Roboto Mono', monospace;
+    /* font-family: 'Sansita Swashed', cursive; */
+    font-size: 1rem;
+    padding: 10px 10px 10px 10px;
+}
+.contact{
+    margin: 10px 10px;
+}
+
+.contact a{
+    padding: 10px 10px;
+    /* margin: 10px 10px; */
+}
+.contact a img{
+    height: 2rem;
+    width: 2rem;
+}
+#linkedin-logo{
+    width: 4rem;
+    height: 3rem;
+}
+
+
+/* _____________Information section_______________ */
+.information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 25px;
+    margin: 10px 10px;
+}
+
+
+@media (min-width: 200px) and (max-width: 600px){
+    #grid-container{
+        flex-direction: column;
+    }
+    #side-container{
+        width: 100%;
+
+    }
+    #main-image{
+        margin: 60px 20px 55px 0px;
+    }
+    .information{
+        height: 400px;
+    }
+}
