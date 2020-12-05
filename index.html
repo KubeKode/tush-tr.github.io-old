@@ -45,11 +45,23 @@
         </ul>
       </div>
     </nav>
+    <script>
+      setTimeout(write, 2000);
+      function write() {
+        var hello = "Hey, I'm Tushar!";
+        var i = 1;
+        var t = setInterval(() => {
+          document.getElementById("hello").innerHTML = hello.slice(0, i);
+          i++;
+          if (i === 31) clearInterval(t);
+        }, 200);
+      }
+    </script>
   </header>
   <!--______________________ Start a grid container________________________ -->
   <aside id="side-container" class="aside">
     <img id="main-image" src="assets/tush.jpg" alt="">
-    <h2>Hey, I'm Tushar!</h2>
+    <h2 id="hello"></h2>
     <h3>Full stack developer | DevOps Enthusiast</h3>
     <div class="contact">
       <a href="https://www.linkedin.com/in/tushar-r-849510116/" target="_blank"><img id="linkedin-logo"
