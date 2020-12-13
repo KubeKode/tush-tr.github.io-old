@@ -5,6 +5,16 @@ header{}
     width: 100%;
     height: 640px;
 } */
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+nav .my-name{
+    color: white;
+    padding: 0 80px;
+    font-family: 'Sansita Swashed', cursive;
+    
+}
 body{
     background: url(assets/bak1n.jpg) no-repeat center center/cover;
 }
@@ -17,6 +27,7 @@ body{
     flex-direction: column;
     position: fixed;
     height: 94vh;
+    margin-top: 3.4rem;
 }
 aside::before{
     content: "";
@@ -73,7 +84,19 @@ aside::before{
   height: 100vh;
   display: inline-block;
   padding-left: 33vw;
-  overflow: auto;
+  color: white;
+  margin-top: 4rem;
+
+}
+.information h2{
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: bold;
+}
+.paras{
+    font-size: 1.1rem;
+}
+.different{
+    color: deepskyblue;
 }
 
 
