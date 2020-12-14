@@ -1,10 +1,12 @@
-.workcards{
+.workcards1{
     display: flex;
     /* justify-content: center; */
     /* align-items: center; */
+    flex-direction: row;
+    justify-content: center;
     
 }
-.fdelivery{
+.worksection{
     background-color: white;
     width: 24rem;
     display: inline-block;
@@ -15,21 +17,34 @@
     transition: 0.4s ease-in-out;
     transform: scale(1);
     padding: 0px;
-    margin: 2vh 0px;
+    margin: 2vh 40px;
     text-align: center;
     color: red;
     font-weight: bold;
 
 }
-.fdelivery img{
+.worksection img{
     height: 14rem;
     width: 100%;
 }
 
+.workcards2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
 @media (min-width: 200px) and (max-width: 600px){
-    .workcards{
+    .workcards1{
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+    .worksection{
+        width: 90%;
+    }
+    .workcards2{
+        flex-direction: column;
+    }
+
 }
