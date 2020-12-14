@@ -5,7 +5,8 @@
     
 }
 .fdelivery{
-    width: 90%;
+    background-color: white;
+    width: 24rem;
     display: inline-block;
     border-radius: 5px;
     color: var(--text-color);
@@ -15,9 +16,20 @@
     transform: scale(1);
     padding: 0px;
     margin: 2vh 0px;
+    text-align: center;
+    color: red;
+    font-weight: bold;
 
 }
 .fdelivery img{
     height: 14rem;
     width: 100%;
+}
+
+@media (min-width: 200px) and (max-width: 600px){
+    .workcards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
