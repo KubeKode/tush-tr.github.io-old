@@ -24,6 +24,14 @@
     font-weight: bold;
 
 }
+.worksection:hover{
+    
+    width: 25rem;
+
+}
+.worksection img:hover{
+    height: 15rem;
+}
 .worksection img{
     height: 14rem;
     width: 100%;
@@ -33,6 +41,10 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
+}
+
+.testimonials{
+    margin-left: 43%;
 }
 
 @media (min-width: 200px) and (max-width: 600px){
@@ -46,6 +58,13 @@
     }
     .workcards2{
         flex-direction: column;
+    }
+    .testimonials{
+        margin-left: 10%;
+    }
+    .testimonials img{
+        width: 80%;
+
     }
 
 }

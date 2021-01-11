@@ -10,12 +10,21 @@ header{
 #navbar_top{
     z-index: 1;
 }
+#navbar_top .navbar-brand:hover{
+    
+    font-size:1.4rem ;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 2px 12px;
+    
+}
 .navbar-fixed-top {
    width: 100%;
     position: fixed;
 }
 body{
-    background: url(assets/bak1n.jpg) no-repeat center center/cover;
+    background: url(../assets/bak1n.jpg) no-repeat center center/cover;
 }
 /* ________________Aside________________ */
 #side-container{
@@ -32,7 +41,7 @@ body{
 }
 aside::before{
     content: "";
-    background:url(assets/sideb.jpg) no-repeat center center/cover;
+    background:url(../assets/sideb.jpg) no-repeat center center/cover;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -50,6 +59,11 @@ aside::before{
     border-radius: 1.3rem;
     margin: 1rem 2rem 4rem 0rem;
     box-shadow: 6px 4px rgba(226, 147, 115, 0.63);
+}
+#main-image:hover{
+    transform: rotate(-3deg);
+    height: 15rem;
+    width: 14rem;
 }
 .aside h2{
     font-family: 'Sansita Swashed', cursive;
@@ -74,6 +88,10 @@ aside::before{
 .contact a img{
     height: 2rem;
     width: 2rem;
+}
+.contact a img:hover{
+    height: 3rem;
+    width: 3rem;
 }
 
 
