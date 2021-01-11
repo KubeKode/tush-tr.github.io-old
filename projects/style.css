@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    background: url(snow.jpg) repeat center center/cover;
+    background: url("/projects/snow.jpg") repeat center center/cover;
 }
 /* header */
 .myinfo{
