@@ -1,0 +1,74 @@
+body{
+    /* text-align: center; */
+    background: url("/projects/snow.jpg") repeat center center/cover;
+}
+/* header */
+.myinfo{
+    /* border: 2px solid red; */
+    margin: 10px 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+section{
+    background-color:#efefef;
+    /* border: 2px solid; */
+    margin: 10px 15%;
+}
+.navbar-nav{
+    text-align: center;
+}
+.navbar-expand-lg .navbar-collapse {
+    justify-content: center;
+}
+
+.containers{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 5rem;
+
+}
+.first{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 50%;
+
+
+
+}
+.first h2, .second h2{
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    padding: 1px 5rem;
+}
+.uppersection .second{
+    margin-left: 20rem;
+    margin-top: 10px;
+}
+.second h3{
+    font-size: 1rem;
+}
+.second a{
+    text-decoration: none;
+}
+.second{
+    margin-top: 10px;
+    width: 50%;
+}
+
+li{
+    padding: 5px;
+    margin: 5px;
+}
+/* Table */
+table{
+
+}
+tr{}
+td{
+    padding: 7px 32px;
+}
+

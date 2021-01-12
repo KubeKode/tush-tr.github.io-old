@@ -1,0 +1,10 @@
+.worksection{
+    width: 90%;
+}
+.row-containers{
+    flex-direction: column;
+
+}
+#mainsection{
+    margin: 0 0;
+}
