@@ -1,0 +1,25 @@
+.containers{
+    flex-direction: column;
+}
+header{
+    margin: 0 0;
+
+}
+#mainsection{
+    margin: 0 0;
+}
+#resume-build{
+    margin: 0 0;
+}
+.containers .first{
+    width: 100%;
+}
+.containers .second{
+    width: 100%;
+}
+#about{
+    margin-left: .5rem;
+}
+table{
+    font-size: .8rem;
+}

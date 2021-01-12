@@ -38,6 +38,10 @@ section{
 
 
 }
+#resume-button{
+    color: #cec9cd;
+    font-weight: bold;
+}
 .first h2, .second h2{
     font-weight: bold;
     background-color: red;
