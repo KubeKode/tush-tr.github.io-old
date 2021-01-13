@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap');
+
 body{
     /* text-align: center; */
     background: url("/projects/snow.jpg") repeat center center/cover;
@@ -9,6 +12,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    font-family: 'Potta One', cursive;
 
 }
 
@@ -19,14 +23,18 @@ body{
 
 /* Section of info */
 #mainsection{
-    background-color: #c4c2c5;
+    background-color: #30739ad4;
     /* border: 2px solid; */
     margin: 10px 15%;
+    border-radius: 8rem;
 }
 /* first navbar */
 /* #navbarSupportedContent .ms-5 {
     margin-left: 16rem!important;
 } */
+.navbar{
+    border-radius: 1rem;
+}
 .navbar-nav{
     text-align: center;
 }
@@ -40,7 +48,7 @@ body{
     text-align: center;
 }
 .worksection{
-    background-color: white;
+    background-color:#e4e2e7;
     width: 24rem;
     display: inline-block;
     border-radius: 5px;
@@ -55,6 +63,9 @@ body{
     
     
 
+}
+.container h1{
+    font-family: 'Fira Sans', sans-serif;
 }
 .headingofwork{
     color: red;
