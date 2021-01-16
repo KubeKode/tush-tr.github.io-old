@@ -47,6 +47,34 @@
     margin-left: 43%;
 }
 
+
+.badges{}
+.badges .bigbadges{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #403a3a;
+    border-radius: 162px;
+}
+.badges .bigbadges img{
+    height: 250px;
+    width: 32%;
+    margin: 10px 30px;
+}
+.smallbadges{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #403a3a;
+    border-radius: 162px;
+}
+.badgescon img{
+    height: 103px;
+    width: 91px;
+    margin: 10px 30px;
+    margin: 23px 10px;
+}
+
 @media (min-width: 200px) and (max-width: 600px){
     .workcards1{
         flex-direction: column;
@@ -65,6 +93,17 @@
     .testimonials img{
         width: 80%;
 
+    }
+    .badges .bigbadges{
+        flex-direction: column;
+        border: none;
+    }
+    .smallbadges{
+        border: none;
+        flex-direction: column;
+    }
+    .badges .bigbadges img{
+        width: 80%;
     }
 
 }

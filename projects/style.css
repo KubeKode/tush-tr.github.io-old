@@ -1,9 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap');
 
-body{
-    /* text-align: center; */
+/* body{
+    text-align: center;
     background: url("/projects/snow.jpg") repeat center center/cover;
+} */
+
+body::before{
+    content: "";
+    background: url("/projects/snow.jpg") repeat center center/cover;
+    position: absolute;
+    height: 100rem;
+    width: 100%;
+    z-index: -1;
+    opacity: .85;
+    top: 0px;
+    left: 0px;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
 }
 /* header */
 .myinfo{
@@ -23,17 +37,18 @@ body{
 
 /* Section of info */
 #mainsection{
-    background-color: #30739ad4;
+    background-color: #5a6167;
     /* border: 2px solid; */
     margin: 10px 15%;
-    border-radius: 8rem;
+    /* border-radius: 8rem; */
+    color: white;
 }
 /* first navbar */
 /* #navbarSupportedContent .ms-5 {
     margin-left: 16rem!important;
 } */
 .navbar{
-    border-radius: 1rem;
+    border-radius: 5px;
 }
 .navbar-nav{
     text-align: center;
@@ -42,7 +57,35 @@ body{
     justify-content: center;
 }
 /* second navbar */
+.projectheadings{
+    width: 100%;
 
+}
+#project-types{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3e4348;
+
+}
+#project-types li{
+    list-style: none;
+    padding: 5px;
+}
+#project-types li a{
+    text-decoration: none;
+    margin: 5px 5px;
+    font-size: 1.5rem;
+    color: white;
+    padding: 5px 5px;
+
+
+}
+#project-types li a:hover{
+    font-weight: bold;
+    border-radius: 5px;
+    background-color:#353535;
+}
 
 .projects{
     text-align: center;
@@ -66,6 +109,7 @@ body{
 }
 .container h1{
     font-family: 'Fira Sans', sans-serif;
+    background-color: #4d575f;
 }
 .headingofwork{
     color: red;

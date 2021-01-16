@@ -12,9 +12,18 @@ body{
 
 }
 section{
-    background-color:#efefef;
+    background-color: #424242;
     /* border: 2px solid; */
+    color: white;
     margin: 10px 15%;
+}
+section a{
+    color: white;
+    text-decoration: none;
+}
+section a:hover{
+    font-weight: bold;
+    color: white;
 }
 .navbar-nav{
     text-align: center;
@@ -44,7 +53,7 @@ section{
 }
 .first h2, .second h2{
     font-weight: bold;
-    background-color: red;
+    background-color:#4d575f;
     color: white;
     padding: 1px 5rem;
 }

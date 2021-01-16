@@ -1,5 +1,11 @@
 .worksection{
-    width: 90%;
+    width: 100%;
+    margin: 2vh 0;
+}
+.myinfo{
+    margin: 0;
+    padding: 10px;
+    font-size: 1rem;
 }
 .row-containers{
     flex-direction: column;
@@ -7,4 +13,10 @@
 }
 #mainsection{
     margin: 0 0;
+}
+#project-types{
+    flex-direction: column;
+}
+#project-types li a{
+    font-size: 1rem;
 }
