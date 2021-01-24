@@ -62,14 +62,18 @@
           if (i === 31) clearInterval(t);
         }, 200);
       }
-
     </script>
   </header>
   <!--______________________ Start a grid container________________________ -->
   <aside id="side-container" class="aside">
     <img id="main-image" src="assets/tush.jpg" alt="">
     <h2 id="hello"></h2>
-    <h3>Full stack developer | DevOps Enthusiast</h3>
+    <h3 id="software-engineer">Full Stack Software Engineer</h3>
+    <div class="sidenav">
+      <h4><a href="#myportfolio">Portfolio</a></h4>
+      <h4><a href="#projectcontainer">Projects</a></h4>
+      <h4><a href="https://tush-tr.medium.com/">Blogs</a></h4>
+    </div>
     <div class="contact">
       <a href="https://www.linkedin.com/in/tushar-r-849510116/" target="_blank"><img id="linkedin-logo"
           src="assets/linkedin.png" alt=""></a>
@@ -80,7 +84,7 @@
     </div>
   </aside>
   <!-- right side section of information -->
-  <section class="information">
+  <section id="myportfolio" class="information">
     <h2>About.</h2><br>
     <div class="paras">
       <p class="firstparaaboutme">
@@ -147,18 +151,18 @@
     <br><br>
     <div id="projectcontainer">
       <div class="workcards1">
-        <a href="https://tush-tr.github.io/html_and_css/project_03/index.htm" target="_blank">
+        <a href="https://github.com/tush-tr/college-review" target="_blank">
           <section class="worksection">
-            <img src="work/frontend/fooddelivery.gif" alt="">
+            <img src="work/college-review.gif" alt="">
             <div class="headingofwork">
-              A responsive food delivery website
+              Review your college website
             </div>
           </section>
         </a>
         <a href="/projects/dice_simulator/index.htm" target="_blank">
           <section class="worksection">
-            <img src="work/vanilla-js/vanilla-cr.gif" alt="">
-            <div class="headingofwork">Customer reviewer app</div>
+            <img src="work/search-employees.gif" alt="">
+            <div class="headingofwork">Search Your Employees</div>
           </section>
         </a>
 
@@ -166,16 +170,16 @@
 
       <!-- Workcontainer -->
       <div class="workcards1">
-        <a href="" target="_blank">
+        <a href="https://github.com/tush-tr/flask-sample-restful-api" target="_blank">
           <section class="worksection">
-            <img src="/work/vanilla-js/analogclock.gif" alt="">
-            <div class="headingofwork">Analog Clock</div>
+            <img src="/work/rest-flask.jpg" alt="">
+            <div class="headingofwork">Restful API</div>
           </section>
         </a>
-        <a href="https://tush-tr.github.io/vanilla_js_projects/typing-speed-tester/" target="_blank">
+        <a href="https://github.com/tush-tr/Vakra-UI" target="_blank">
           <section class="worksection">
-            <img src="work/vanilla-js/typing.gif" alt="">
-            <div class="headingofwork">typing speed tester</div>
+            <img src="work/logo.jpg" alt="">
+            <div class="headingofwork">Vakra - UI Framework</div>
 
           </section>
           </a>
@@ -184,11 +188,17 @@
     <br>
     <section class="badges">
       <h1>My small achievements</h1>
-      <p class="bigbadges">
-        <img src="/badges/gcp/cloud-engineering.png" alt="">
-        <img src="/badges/gcp/fundamentals.png" alt="">
-      </p>
       <div class="smallbadges">
+        <div class="badgescon">
+          <div id="cloud-eng">
+            <img src="/badges/gcp/cloud-eng.png" alt="">
+          </div>
+          <div id="cloud-funda">
+
+            <img src="/badges/gcp/funda.png" alt="">
+          </div>
+
+        </div>
         <div class="badgescon">
         <img src="/badges/hackerrank/python.png" alt="">
         <img src="/badges/hackerrank/c.png" alt="">

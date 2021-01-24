@@ -3,6 +3,7 @@
     padding: 0 80px;
     font-family: 'Sansita Swashed', cursive;
 } */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 header{
     position: absolute;
     top: 0;
@@ -28,7 +29,7 @@ body{
 }
 /* ________________Aside________________ */
 #side-container{
-    width: 30vw;
+    width: 24vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,6 +38,24 @@ body{
     height: 94vh;
     text-overflow: clip;
     margin-top: 35px;
+    color: black;
+    
+}
+.sidenav{
+    margin-right: 150px;
+    margin-bottom: 60px;
+}
+.sidenav h4{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.3rem;
+    padding: 5px;
+}
+.sidenav h4 a:hover{
+    color: black;
+}
+.sidenav h4 a{
+    text-decoration: none;
+    color: #3c3434;
     
 }
 aside::before{
@@ -53,22 +72,22 @@ aside::before{
     -webkit-filter: blur(13px);
 }
 #main-image{
-    height: 14rem;
-    width: 13rem;
+    height: 11rem;
+    width: 11rem;
     border: transparent;
-    border-radius: 1.3rem;
-    margin: 1rem 2rem 4rem 0rem;
-    box-shadow: 6px 4px rgba(226, 147, 115, 0.63);
+    border-radius: 50%;
+    margin: 0rem 0rem 1rem 0rem;
+    
 }
 #main-image:hover{
     transform: rotate(-3deg);
-    height: 15rem;
-    width: 14rem;
+    height: 12rem;
+    width: 12rem;
 }
 .aside h2{
     font-family: 'Sansita Swashed', cursive;
     /* padding: 1rem 1rem; */
-    margin: 0rem 0rem 1rem 0rem;
+    margin: 0rem 0rem 0rem 0rem;
     font-size: 2.3rem;
 }
 .aside h3{
@@ -102,7 +121,7 @@ aside::before{
   padding: 4vh 3vw;
   height: 100vh;
   display: inline-block;
-  padding-left: 33vw;
+  padding-left: 27vw;
   color: white;
   margin-top: 40px;
 }
@@ -119,26 +138,35 @@ aside::before{
 
 
 @media (min-width: 200px) and (max-width: 600px){
+    .sidenav{
+        display: none;
+    }
+    
     #side-container{
         width: 100%;
         margin: 15px 0px;
         position: relative;
-
-
+        height: 66vh;
+    }
+    #projectcontainer{
+        width: 90vw;
     }
     header{
         position: absolute;
         top: 0;
-        
     }
     #main-image{
-        margin: 60px 20px 55px 0px;
+        margin: 65px 0px 10px 0px;
     }
     .information{
         position: relative;
         display: inline-block;
         padding: 5vw 8vw;
-        width: 90vw;
+        width: 100vw;
+        margin: 0 0;
+    }
+    .paras{
+        font-size: .9rem;
     }
 
     

@@ -48,38 +48,49 @@
 }
 
 
-.badges{}
-.badges .bigbadges{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.badges{
     border: 2px solid #403a3a;
     border-radius: 162px;
-}
-.badges .bigbadges img{
-    height: 250px;
-    width: 32%;
-    margin: 10px 30px;
+    text-align: center;
 }
 .smallbadges{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid #403a3a;
-    border-radius: 162px;
+    margin-bottom: 40px;
+    
 }
 .badgescon img{
     height: 103px;
     width: 91px;
     margin: 10px 30px;
     margin: 23px 10px;
+    border-radius: 50%;
+}
+.badgescon div{
+    height: 103px;
+    width: 91px;
+    margin: 10px 30px;
+    margin: 23px 10px;
+    border-radius: 50%;
+    display: contents;
+
 }
 
 @media (min-width: 200px) and (max-width: 600px){
+    .worksection:hover{
+    
+        width: 90%;
+    
+    }
+    .worksection img:hover{
+        height: 14rem;
+    }
     .workcards1{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin: 0 0;
     }
     .worksection{
         width: 90%;
@@ -94,13 +105,17 @@
         width: 80%;
 
     }
-    .badges .bigbadges{
-        flex-direction: column;
-        border: none;
+    .badges{
+        border-radius: 24px;
+    padding-top: 24px;
+    margin-bottom: 15px;
     }
     .smallbadges{
         border: none;
         flex-direction: column;
+    }
+    .badges .bigbadges div{
+        width: 80%;
     }
     .badges .bigbadges img{
         width: 80%;
