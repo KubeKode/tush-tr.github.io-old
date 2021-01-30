@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap');
 
-/* body{
-    text-align: center;
-    background: url("/projects/snow.jpg") repeat center center/cover;
-} */
+body{
+    background: url("../assets/back2.jpg") repeat center center/cover;
+}
 
-body::before{
+/* body::before{
     content: "";
     background: url("/projects/snow.jpg") repeat center center/cover;
     position: absolute;
@@ -18,14 +17,11 @@ body::before{
     left: 0px;
     filter: blur(3px);
     -webkit-filter: blur(3px);
-}
+} */
 /* header */
 .myinfo{
     /* border: 2px solid red; */
-    margin: 10px 15%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    margin: 10px 4%;
     font-family: 'Potta One', cursive;
 
 }
@@ -37,9 +33,13 @@ body::before{
 
 /* Section of info */
 #mainsection{
-    background-color: #5a6167c2;
+    background-color: #82641278;
     /* border: 2px solid; */
-    margin: 10px 15%;
+    margin: 10px 4%;
+    border: 2px;
+    border-color: #326e94;
+    border-style: solid;
+    border-radius: 12px;
     /* border-radius: 8rem; */
     color: white;
 }
@@ -59,13 +59,12 @@ body::before{
 /* second navbar */
 .projectheadings{
     width: 100%;
-
 }
 #project-types{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3e4348;
+    background-color: #407192c7;
 
 }
 #project-types li{
@@ -80,6 +79,14 @@ body::before{
     padding: 5px 5px;
 
 
+}
+.viewbutton{
+    background-color: #927a2b66;
+    border-radius: 9px;
+    padding: 6px 15px;
+    margin: 10px;
+    color: white;
+    font-weight: bold;
 }
 #project-types li a:hover{
     font-weight: bold;
@@ -126,4 +133,7 @@ body::before{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.viewcontent{
+    display: none;
 }
