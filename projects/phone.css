@@ -2,14 +2,14 @@
     width: 100%;
     margin: 2vh 0;
 }
+.navbar-brand{
+    display: block;
+}
 .myinfo{
-    margin: 0;
-    padding: 10px;
-    font-size: 1rem;
+    display: none;
 }
 .row-containers{
     flex-direction: column;
-
 }
 #mainsection{
     margin: 0 0;

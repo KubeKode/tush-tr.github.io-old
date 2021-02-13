@@ -110,9 +110,6 @@ body{
     padding: 0px;
     margin: 2vh 10px;
     text-align: center;
-    
-    
-
 }
 .container h1{
     font-family: 'Fira Sans', sans-serif;
@@ -127,6 +124,9 @@ body{
 .worksection img{
     height: 14rem;
     width: 100%;
+}
+.navbar-brand{
+    display: none;
 }
 
 .row-containers{

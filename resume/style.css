@@ -1,21 +1,31 @@
 body{
-    /* text-align: center; */
-    background: url("/projects/snow.jpg") repeat center center/cover;
+    background: url("../assets/back2.jpg") repeat center center/cover;
 }
 /* header */
 .myinfo{
     /* border: 2px solid red; */
-    margin: 10px 15%;
+    margin: 10px 10%;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    /* flex-direction: column; */
+    justify-content: center;
 
 }
-section{
-    background-color: #424242;
+.navbar{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#mainsection{
     /* border: 2px solid; */
     color: white;
-    margin: 10px 15%;
+    margin: 10px 10% -10px 10%;
+}
+#resume-build{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #E4E9FD;
+    background-image: -webkit-linear-gradient(
+        180deg
+        , #a58629 50%, #2b71a0 50%);
 }
 section a{
     color: white;
@@ -44,8 +54,6 @@ section a:hover{
     margin-top: 10px;
     width: 50%;
 
-
-
 }
 #resume-button{
     color: #cec9cd;
@@ -57,9 +65,29 @@ section a:hover{
     color: white;
     padding: 1px 5rem;
 }
+
+
+
+#about{
+
+}
+.infolist{}
+.infolist li{
+    list-style: none;
+}
+.infolist li .infotitle{
+    margin-right: 4px;
+}
+.infolist li .infovalue{
+    width: 10px;
+}
+.infolist li span a{}
+
+
+
 .uppersection .second{
-    margin-left: 20rem;
-    margin-top: 10px;
+    margin-left: 1rem;
+    /* margin-top: 10px; */
 }
 .second h3{
     font-size: 1rem;

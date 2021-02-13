@@ -1,3 +1,12 @@
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('https://lkp.dispendik.surabaya.go.id/assets/loading.gif') 50% 50% no-repeat rgb(17, 17, 17);
+}
 .workcards1{
     display: flex;
     /* justify-content: center; */
@@ -49,8 +58,6 @@
 
 
 .badges{
-    border: 2px solid #403a3a;
-    border-radius: 162px;
     text-align: center;
 }
 .smallbadges{
@@ -59,6 +66,10 @@
     align-items: center;
     margin-bottom: 40px;
     
+}
+.badgescon{
+    background-color: #0c0c0c;
+    border-radius: 3%;
 }
 .badgescon img{
     height: 103px;
@@ -119,6 +130,11 @@
     }
     .badges .bigbadges img{
         width: 80%;
+    }
+    .badgescon img {
+        
+        width: 70px;
+
     }
 
 }
