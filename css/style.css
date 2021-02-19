@@ -3,7 +3,24 @@
     padding: 0 80px;
     font-family: 'Sansita Swashed', cursive;
 } */
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+    background-color: #0c0f16
+}
+body::before{
+    content: "";
+    background: url(../assets/bak1n.jpg) repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .85;
+    top: 0px;
+    left: 0px;
+    filter: blur(3px);
+    -webkit-filter: blur(13px);
+}
 header{
     position: absolute;
     top: 0;
@@ -27,9 +44,7 @@ header{
 .bg-dark {
     background-color: #1a1a1a45!important;
 }
-body{
-    background: url(../assets/bak1n.jpg) no-repeat center center/cover;
-}
+
 /* ________________Aside________________ */
 #side-container{
     width: 24vw;
@@ -164,7 +179,7 @@ aside::before{
     .information{
         position: relative;
         display: inline-block;
-        padding: 5vw 8vw;
+        padding: 5vw 5vw;
         width: 100vw;
         margin: 0 0;
     }
