@@ -1,25 +1,18 @@
-.containers{
+.resume-build{
+    width: auto;
+    margin: 0 auto;
+    /* padding: 20px; */
+}
+.resume-header{
     flex-direction: column;
 }
-header{
-    margin: 0 0;
 
+.resume-section-text{
+    padding: 0;
 }
-#mainsection{
-    margin: 0 0;
-}
-#resume-build{
-    margin: 0 0;
-}
-.containers .first{
-    width: 100%;
-}
-.containers .second{
-    width: 100%;
-}
-#about{
-    margin-left: .5rem;
-}
-table{
-    font-size: .8rem;
+.resume-section-meta-right{
+    float: left;
+    border-left: 1px solid #e0e0e0;
+    padding-left: 15px;
+    text-align: right;
 }
