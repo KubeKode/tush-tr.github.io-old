@@ -2,88 +2,163 @@
 <html lang="en">
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128563001-5"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128563001-5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-    gtag('config', 'UA-128563001-5');
-  </script>
+        gtag('config', 'UA-128563001-5');
+    </script>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Certifications</title>
-  <meta content="Tushar-tr, Tushar Rajput, Tuhar, Portfolio-Tushar Rajput" name="keywords" />
-  <meta content="Works @freelance | Developer | Programmer | JavaScript Developer | Presenter | Designer | Geek | DevOps"
-    name="description" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tushar Rajput</title>
+    <meta content="Tushar-tr, Tushar Rajput, Tuhar, Portfolio-Tushar Rajput" name="keywords" />
+    <meta
+        content="Works @freelance | Developer | Programmer | JavaScript Developer | Presenter | Designer | Geek | DevOps"
+        name="description" />
 
-  <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@800&display=swap" rel="stylesheet">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Sansita+Swashed:wght@800;900&display=swap"
-    rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="css/work.css">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Sansita+Swashed:wght@800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/work.css">
 </head>
 
 <body>
-  <header>
-    <nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top ">
-      <a href="" class="navbar-brand ms-5">Tushar Rajput</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item ms-2 me-2"><a href="" class="nav-link">Home</a></li>
-          <li class="nav-item ms-2 me-2"><a href="/badges/" class="nav-link" target="_blank">Certifications</a></li>
-          <li class="nav-item ms-2 me-2"><a href="/projects/" class="nav-link">Projects</a></li>
-          <li class="nav-item ms-2 me-2"><a href="https://tush-tr.github.io/blog" class="nav-link">Blogs</a></li>
-          <li class="nav-item ms-2 me-5"><a href="/resume/" class="nav-link">Resume</a></li>
-        </ul>
-      </div>
-    </nav>
+    <div class="loader"></div>
+    <header>
+        <nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top ">
+            <a href="" class="navbar-brand ms-5">Tushar Rajput</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item ms-2 me-2"><a href="/" class="nav-link">Home</a></li>
+                    <li class="nav-item ms-2 me-2"><a href="/badges/" class="nav-link"
+                            target="_blank">Certifications</a></li>
+                    <li class="nav-item ms-2 me-2"><a href="#" class="nav-link">Projects</a></li>
+                    <li class="nav-item ms-2 me-2"><a href="https://tush-tr.github.io/Blog" class="nav-link">Blogs</a>
+                    </li>
+                    <li class="nav-item ms-2 me-5"><a href="/resume/" class="nav-link">Resume</a></li>
+                </ul>
+            </div>
+        </nav>
 
-    <script>
-      setTimeout(write, 2000);
-      function write() {
-        var hello = "Hey, I'm Tushar!";
-        var i = 1;
-        var t = setInterval(() => {
-          document.getElementById("hello").innerHTML = hello.slice(0, i);
-          i++;
-          if (i === 31) clearInterval(t);
-        }, 200);
-      }
+        <script>
+            setTimeout(write, 2000);
+            function write() {
+                var hello = "Hey, I'm Tushar!";
+                var i = 1;
+                var t = setInterval(() => {
+                    document.getElementById("hello").innerHTML = hello.slice(0, i);
+                    i++;
+                    if (i === 31) clearInterval(t);
+                }, 200);
+            }
+        </script>
+    </header>
+    <!--______________________ Start a grid container________________________ -->
+    <aside id="side-container" class="aside">
+        <img id="main-image" src="../assets/tush.jpg" alt="">
+        <h2 id="hello"></h2>
+        <h3 id="software-engineer">Full Stack Software Engineer</h3>
+        <div class="sidenav">
+            <h4><a href="#myportfolio">Portfolio</a></h4>
+            <h4><a href="#projectcontainer">Projects</a></h4>
+            <h4><a href="https://tush-tr.medium.com/" target="_blank">Blogs</a></h4>
+        </div>
+        <div class="contact">
+            <a href="https://www.linkedin.com/in/tushar-r-849510116/" target="_blank"><img id="linkedin-logo"
+                    src="../assets/linkedin.png" alt=""></a>
+            <a href="https://github.com/tush-tr" target="_blank"><img src="../assets/github-logo.png" alt=""></a>
+            <a href="https://twitter.com/tush_tr604?s=08" target="_blank"><img src="../assets/twitter.png" alt=""></a>
+            <a href="mailto: tusharrajput604@gmail.com" target="_blank" class="socials"
+                aria-label="Email: tusharrajput604@gmail.com"><img src="../assets/paper-plane.png" alt=""></a>
+        </div>
+    </aside>
+    <!-- right side section of information -->
+    <section id="myportfolio" class="information">
 
-    </script>
-  </header>
-  <!--______________________ Start a grid container________________________ -->
-  <div class="my-row">
-      <div class="cer">
-          <img src="./hackerrank/download.png" alt="">
-          <a class="btn btn-primary btn-sm">View Certificate</a>
-      </div>
-      <div class="cer">
-          <embed src="./coursera/gcp.pdf" type="">
-        <a class="btn btn-primary btn-sm">View Certificate</a>
-      </div>
-      <div class="cer badge">
-          <img src="./ibm/cloud.png" alt="">
-          <div class="view">
-          <a class="btn btn-primary btn-sm">View Certificate</a></div>
-      </div>
-  </div>
+        <!-- ___________________________________Projects __________________________________________ -->
+        
+        <div id="projectcontainer">
+
+
+          <section class="workcard">
+            <!-- Preview of the Project -->
+            <div class="worksection project-preview">
+                <img src="hackerrank/py.png" alt="">
+                <p>
+                    <a href="https://fast-lake-53080.herokuapp.com/" class="project-button" target="_blank">View Certificate</a>
+                </p>
+            </div>
+
+            <!-- Information about the project -->
+
+            <div class="worksection project-preview">
+              <img src="hackerrank/rest.png" alt="">
+              <p>
+                    <a href="https://fast-lake-53080.herokuapp.com/" class="project-button" target="_blank">View Certificate</a>
+                </p>
+            </div>
+        </section>
+
+        <section class="workcard">
+          <!-- Preview of the Project -->
+          <div class="worksection project-preview">
+              <img src="coursera/cer.jpeg" alt="">
+              <p>
+                  <a href="https://fast-lake-53080.herokuapp.com/" class="project-button" target="_blank">View Certificate</a>
+              </p>
+          </div>
+
+          <!-- Information about the project -->
+
+          <div class="worksection project-preview">
+            <img src="hackerrank/rest.png" alt="">
+            <p>
+                  <a href="https://fast-lake-53080.herokuapp.com/" class="project-button" target="_blank">View Certificate</a>
+              </p>
+          </div>
+      </section>
+        </div>
+        <!-- _____________________________________________________________________________________________ -->
+        <br>
+
+
+        <br><br>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+<script src="../script.js"></script>
+
 </html>

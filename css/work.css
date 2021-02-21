@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
 .loader {
     position: fixed;
     left: 0px;
@@ -23,7 +24,6 @@
     align-items: center;
     justify-content: center;
     width: 50%;
-
 }
 .worksection img{
     height: 14rem;
@@ -57,7 +57,9 @@
 .project-about{
     padding: 10px;
 }
-
+.project-about h2{
+    font-family: 'Ubuntu', sans-serif;
+}
 .testimonials{
     margin-left: 43%;
 }

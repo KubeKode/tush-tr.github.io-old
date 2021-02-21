@@ -56,7 +56,7 @@ header{
     height: 94vh;
     text-overflow: clip;
     margin-top: 35px;
-    color: black;
+    color: white;
     
 }
 .sidenav{
@@ -69,16 +69,16 @@ header{
     padding: 5px;
 }
 .sidenav h4 a:hover{
-    color: black;
+    color: white;
 }
 .sidenav h4 a{
     text-decoration: none;
-    color: #3c3434;
+    color: #af9a9a;
     
 }
 aside::before{
     content: "";
-    background:url(../assets/sideb.jpg) no-repeat center center/cover;
+    background:url(../assets/back4.jpg) no-repeat center center/cover;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -98,7 +98,7 @@ aside::before{
     
 }
 #main-image:hover{
-    transform: rotate(-3deg);
+    /* transform: rotate(-3deg); */
     height: 12rem;
     width: 12rem;
 }
