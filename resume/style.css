@@ -55,7 +55,11 @@ body{
 }
 .resume-header-info{}
 
-
+.hcltech{
+    border-left: 2px solid #736b6b;
+    margin-left: 5px;
+    padding-left: 5px;
+}
 /* container inside resume section */
 .resume-section-meta{
     font-size: 14px;
